@@ -5,7 +5,6 @@ import requests
 import base64
 from requests.auth import HTTPBasicAuth
 from dotenv import load_dotenv
-from readSubscriptionIDs import read_subscription_ids
 
 SUBSCRIPTIONS_CSV_FILE = "subscriptions.csv"
 SUBSCRIPTION_ID_COL_HEADER = "subscription_id"
